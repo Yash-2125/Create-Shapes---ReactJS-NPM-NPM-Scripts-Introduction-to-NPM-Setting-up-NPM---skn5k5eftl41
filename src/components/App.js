@@ -1,6 +1,4 @@
-import React from 'react'
-import '../styles/App.css';
-const App = () => {import React, { useState } from "react";
+import React, { useState } from "react";
 import "./Shapes.css";
 
 const App = () => {
@@ -14,7 +12,6 @@ const App = () => {
     oldShapes.push(selected.toLowerCase());
     setShapes(oldShapes);
   };
-
 
   return (
     <div id="main">
@@ -37,10 +34,5 @@ const App = () => {
     </div>
   );
 };
-
-export default App;
-
- 
-
 
 export default App;
