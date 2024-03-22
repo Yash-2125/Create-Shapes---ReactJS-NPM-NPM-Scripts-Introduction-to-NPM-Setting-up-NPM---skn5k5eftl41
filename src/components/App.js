@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Shapes.css";
+import "./App.css";
 
 const App = () => {
   const [shapes, setShapes] = useState([]);
