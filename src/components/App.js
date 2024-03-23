@@ -29,10 +29,10 @@ const App = () => {
               {index}
             </div>
           );
-        })};
+        })}
       </div>
     </div>
   );
-};
+}
 
 export default App;
