@@ -1,6 +1,5 @@
-import React from 'react'
+import React, { useState } from 'react'
 import '../styles/App.css';
-
 const App = () => {
   const [shapes, setShapes] = useState([]);
   const [selected, setSelected] = useState("square");
@@ -33,6 +32,6 @@ const App = () => {
       </div>
     </div>
   );
-}
+};
 
 export default App;
